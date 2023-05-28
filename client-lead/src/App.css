@@ -5,7 +5,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
+h1,p{
   text-align: center;
 }
 
@@ -33,10 +33,6 @@ button {
 button:hover {
   background-color: #45a049;
 }
-p{
-  text-align: center;
-}
-
 .App{
   width: 100vw;
   height: 100vh;
@@ -44,4 +40,15 @@ p{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.is-valid{
+  border-color: red;
+}
+
+.invalid-feedback{
+  width: 100%;
+  margin-top: 0.20rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  color: rgb(241, 69, 69);
 }
